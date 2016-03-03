@@ -1,16 +1,17 @@
-print 'Nation in XX century'
-age = int(raw_input( 'Your age: ' ))
+# coding=utf-8
+print 'Общество в начале XXI века'
+age = int(raw_input( 'Ваш возраст: ' ))
 if 0 <= age <= 7:
-    print 'go to kinder garden'
+    print 'Вам в детский сад'
 elif 7 <= age <=18:
-    print 'go to school'
+    print 'Вам в школу'
 elif 18 <= age <= 25:
-    print 'go to PTU'
+    print 'Вам в профессиональное учебное заведение'
 elif 25 <= age <= 60:
-    print 'go to work'
+    print 'Вам на работу'
 elif 60 <= age <= 120:
-    print 'choose your destiny'
+    print 'ам предоставляется выбор'
 else:
-    d = 'ERROR, THIS PROGRAMM FOR HUMANBEING \n'
+    d = 'Ошибка! Это программа для людей! \n'
     print d * 5
 
